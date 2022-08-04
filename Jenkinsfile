@@ -4,8 +4,8 @@ pipeline
 
     environment{
         imageName = "pankajpatre11/myapp"
-        registryCredentials = "nexusid"
-        registry = "54.226.252.254:8083"
+        registryCredentials = "nexusid1"
+        registry = "35.172.201.214:8083"
         dockerImage = ''
     }
     options {

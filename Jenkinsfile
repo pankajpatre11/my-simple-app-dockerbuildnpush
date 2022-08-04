@@ -3,7 +3,7 @@ pipeline
     agent any
 
     environment{
-        imageName = "pankajpatre11/myapp"
+        imageName = "35.172.201.214:8083/alpine"
         registryCredentials = "nexusid1"
         registry = "35.172.201.214:8083"
         dockerImage = ''

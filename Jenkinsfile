@@ -14,15 +14,6 @@ pipeline
     stages
     {
   
-        stage('Build Docker image')
-        {
-            steps
-            {
-                script{
-                    dockerImage = docker.build(imageName)
-                }
-            }
-         }
       stage('Upload Docker image into Repo')
         {
             steps
